@@ -11,7 +11,12 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/estilo.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="estilo.css" />
     <link
       rel="shortcut icon"
       href="imagenes/20220723_080532.png"
@@ -107,9 +112,17 @@
       </nav>
     </div>
     <main>
-      <!--<select name="lista" id="lista"></select>-->
-      <div class="row tarjetas">
-        <div
+      <div id="divInicial">
+        <h2>Ingresa tus datos antes de relizar tus compras.</h2>
+        Nombre:
+        <input type="text" name="nombre" id="nombre" autocomplete="off" />
+        Apellido:
+        <input type="text" name="apellido" id="apellido" autocomplete="off" />
+        <button id="ingresar">INGRESAR</button>
+      </div>
+      <div id="tarjetas1">
+        <div id="divTarjetas" class="row tarjetas">
+          <!-- <div
           class="card col-xl-3 col-md-6 col-sm-12 m-auto tarjetas"
           style="width: 17rem"
         >
@@ -123,7 +136,7 @@
             <p class="card-text">
               Mesa de 180 x 90 + 6 sillas $ 185500.-
             </p>
-            <a href="#" id="boton1" class="btn btn-primary">Codigo 1</a>
+            <a id="1" href="#"  class="btn btn-primary apretado">Codigo 1</a>
           </div>
         </div>
         <div
@@ -140,7 +153,7 @@
             <p class="card-text">
               Sofa 3 cuerpos modelo Chesterfield $ 125800.-
             </p>
-            <a href="#" id="boton2" class="btn btn-primary">Codigo 2</a>
+            <a href="#" id="2" class="btn btn-primary apretado">Codigo 2</a>
           </div>
         </div>
         <div
@@ -157,7 +170,7 @@
             <p class="card-text">
               Rack de tv modulado para colgar $ 39800.-
             </p>
-            <a href="#" id="boton3" class="btn btn-primary">Codigo 3</a>
+            <a href="#" id="3" class="btn btn-primary apretado">Codigo 3</a>
           </div>
         </div>
         <div
@@ -174,13 +187,14 @@
             <p class="card-text">
               Escritorio melamina para notebook $ 15800.-
             </p>
-            <a href="#" id="boton4" class="btn btn-primary">Codigo 4</a>
+            <a href="#" id="4" class="btn btn-primary apretado">Codigo 4</a>
           </div>
+        </div> -->
+
+          <button id="finalizarCompra">Finalizar compra</button>
         </div>
       </div>
-      <!--<div>
-        <button id="finalizar">Finalizar compra</button>
-      </div>
+      <div id="divCarro"></div>
       <ul class="tarjetaRedes">
         <li>
           <a
@@ -211,7 +225,7 @@
               width="30px"
           /></a>
         </li>
-      </ul> -->
+      </ul>
     </main>
     <footer class="pie">
       <footer class="pie1">
@@ -266,6 +280,11 @@
         <h5>Sitio web creado por Jose Luis Gerbino</h5>
       </footer>
     </footer>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="index.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
