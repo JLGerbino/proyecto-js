@@ -1,0 +1,49 @@
+[{
+    "id":1,
+    "nombre":"Juego de comedor ",
+    "precio":185500,
+    "stock":9,
+    "imagen":"imagenes/bordigoni.png",
+    "categoria":"Mesa y sillas"
+  },
+   {
+    "id":2,
+    "nombre":"Sofa Chester ",
+    "precio":125800,
+    "stock":10,  
+    "imagen":"imagenes/chester.jpg",
+    "categoria":"Livings"
+  },
+   {
+    "id":3,
+    "nombre":"Rack tv ",
+    "precio":39800,
+    "stock":15,
+    "imagen":"imagenes/rack colgado1.png",
+    "categoria":"Mesas y racks de tv"
+  },
+   {
+    "id":4,
+    "nombre":"Resplado Sommier ",
+    "precio":42100,
+    "stock":10,
+    "imagen":"imagenes/respaldo.jpg",
+    "categoria":"Dormitorio"
+  },
+   {
+    "id":5,
+    "nombre":"Conjunto Sommier ",
+    "precio":125600,
+    "stock":7,
+    "imagen":"imagenes/colchones.jpg",
+    "categoria":"Dormitorio"
+    },
+    {
+     "id":6,
+     "nombre":"Escritorio notebook ",
+     "precio":15800,
+     "stock":15,
+     "imagen":"imagenes/escritorio.jpeg",
+     "categoria":"Oficina"
+     }
+  ]

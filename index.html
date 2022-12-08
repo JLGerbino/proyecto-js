@@ -112,89 +112,33 @@
       </nav>
     </div>
     <main>
-      <div id="divInicial">
-        <h2>Ingresa tus datos antes de relizar tus compras.</h2>
+      <div id="divInicial" class="textoCarro">
+        <h2>Ingresa tus datos antes de realizar tus compras.</h2>
         Nombre:
         <input type="text" name="nombre" id="nombre" autocomplete="off" />
         Apellido:
         <input type="text" name="apellido" id="apellido" autocomplete="off" />
-        <button id="ingresar">INGRESAR</button>
+        <div><button id="ingresar" class="botonIngreso">INGRESAR</button></div>
       </div>
       <div id="tarjetas1">
         <div id="divTarjetas" class="row tarjetas">
-          <!-- <div
-          class="card col-xl-3 col-md-6 col-sm-12 m-auto tarjetas"
-          style="width: 17rem"
-        >
-          <img
-            src="imagenes/bordigoni.png"
-            class="card-img-top"
-            alt="Trabajando"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Juego de comedor</h5>
-            <p class="card-text">
-              Mesa de 180 x 90 + 6 sillas $ 185500.-
-            </p>
-            <a id="1" href="#"  class="btn btn-primary apretado">Codigo 1</a>
-          </div>
-        </div>
-        <div
-          class="card col-xl-3 col-md-6 col-sm-12 m-auto tarjetas"
-          style="width: 17rem"
-        >
-          <img
-            src="imagenes/chester.jpg"
-            class="card-img-top"
-            alt="Trabajando"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Sofá Chester</h5>
-            <p class="card-text">
-              Sofa 3 cuerpos modelo Chesterfield $ 125800.-
-            </p>
-            <a href="#" id="2" class="btn btn-primary apretado">Codigo 2</a>
-          </div>
-        </div>
-        <div
-          class="card col-xl-3 col-md-6 col-sm-12 m-auto tarjetas"
-          style="width: 17rem"
-        >
-          <img
-            src="imagenes/rack colgado1.png"
-            class="card-img-top"
-            alt="Trabajando"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Rack tv</h5>
-            <p class="card-text">
-              Rack de tv modulado para colgar $ 39800.-
-            </p>
-            <a href="#" id="3" class="btn btn-primary apretado">Codigo 3</a>
-          </div>
-        </div>
-        <div
-          class="card col-xl-3 col-md-6 col-sm-12 m-auto tarjetas"
-          style="width: 17rem"
-        >
-          <img
-            src="imagenes/escritorio.jpeg"
-            class="card-img-top"
-            alt="Trabajando"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Escritorio notebook</h5>
-            <p class="card-text">
-              Escritorio melamina para notebook $ 15800.-
-            </p>
-            <a href="#" id="4" class="btn btn-primary apretado">Codigo 4</a>
-          </div>
-        </div> -->
-
-          <button id="finalizarCompra">Finalizar compra</button>
+          <div class="botonF">
+            <button id="finalizarCompra" class="boton">Finalizar compra</button>
+          </div>          
         </div>
       </div>
-      <div id="divCarro"></div>
+      <div id="divFinal">
+        <div id="divCarro1" class="textoCarro"></div>
+        <div id="divCarro2" class="textoCarro"></div>
+        <div class="botonF">
+          <button id="efectivo" class="boton">Efectivo</button>
+        </div>
+        <div id="divCarro3" class="textoCarro"></div>
+        <div class="botonF">
+          <button id="credito" class="boton">Tarjeta de crédito</button>
+        </div>
+      </div>
+      <div id="divSaludoFinal" class="textoCarro"></div>
       <ul class="tarjetaRedes">
         <li>
           <a
